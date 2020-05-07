@@ -12,5 +12,5 @@ end
 
 
 #my_each(['hi', 'hello', 'bye', 'goodbye'])
-#    {|word| puts word }
+#    {|word|  word }
 
