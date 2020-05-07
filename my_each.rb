@@ -5,6 +5,6 @@ def my_each(array) # put argument(s) here
 end
 
 
-
+words = ['hi', 'hello', 'bye', 'goodbye']
  my_each(words){|word| puts word }
 
