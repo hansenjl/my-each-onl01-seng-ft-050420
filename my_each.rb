@@ -4,15 +4,13 @@
 def my_each(array) # put argument(s) here
   index = 0 
   while index < array.length 
-     puts "before yield"
+
      yield(array[index])
-     puts "after yield"
+
      index += 1    # i = i + 1 
   end
   array 
 end
-
-my_each(['hi', 'hello', 'bye', 'goodbye']){|word| puts word }
 
 
 
