@@ -1,10 +1,15 @@
+# iterate over each element of an array and do something
+#return the original array 
+
 def my_each(array) # put argument(s) here
-  # code here
+  
+  
+  
   yield 
   
 end
 
 
-words = ['hi', 'hello', 'bye', 'goodbye']
- my_each(words){|word| puts word }
+
+#my_each(['hi', 'hello', 'bye', 'goodbye']){|word| puts word }
 
