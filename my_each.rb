@@ -2,10 +2,10 @@
 #return the original array 
 
 def my_each(array) # put argument(s) here
-  counter = 0 
-  while counter < array.length 
+  index = 0 
+  while index < array.length 
      
-     counter += 1    # i = i + 1 
+     index += 1    # i = i + 1 
   end
 end
 
