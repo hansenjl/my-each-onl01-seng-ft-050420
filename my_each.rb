@@ -4,8 +4,7 @@
 def my_each(array) # put argument(s) here
   index = 0 
   while index < array.length 
-  binding.pry
-     yield()
+     yield(array[i])
      index += 1    # i = i + 1 
   end
 end
